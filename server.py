@@ -72,5 +72,5 @@ if __name__ == '__main__':
     print('-------------')
     print('Server start!')
     print('-------------')
-    print('Connection to database lab10_db!\n\n')
+    print('Connection to database!\n\n')
     run()
