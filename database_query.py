@@ -5,7 +5,7 @@ import psycopg2
 # and returns the data that the database provides. If the query returns no data, returns None.
 def query_pg(query):
     data = None
-    database_connection = psycopg2.connect("dbname=lab10_db user=postgres password=maksim2212")
+    database_connection = psycopg2.connect("dbname='your database' user='your user' password='user password'")
     database_cursor = database_connection.cursor()
     database_cursor.execute(query) #'SELECT * FROM messages_schemas.messages;'
     try:
